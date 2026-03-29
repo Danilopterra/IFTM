@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout utilizando HTML5</title>
+    <style>
+        /* CSS Fornecido */
+        * {
+            box-sizing: border-box;
+            margin: 0px;
+            padding: 0px;
+        }
+
+        body {
+            font-family: Verdana, sans-serif;
+            font-size: 0.9em;
+        }
+
+        header h1,
+        footer {
+            background-color: rgb(2, 2, 166); /* Azul escuro conforme PDF 2 */
+            padding: 30px;
+        }
+
+        header,
+        footer {
+            color: white;
+        }
+
+        section:nth-of-type(1) ul {
+            padding-left: 20px !important;
+            line-height: 1.5em;
+        }
+
+        section:nth-of-type(odd) {
+            background-color: rgb(237, 237, 237); /* Cinza claro */
+        }
+
+        section:nth-of-type(even) {
+            background-color: white;
+        }
+
+        section {
+            overflow: auto;
+            padding: 20px;
+        }
+
+        section:nth-of-type(odd) img {
+            float: left;
+        }
+
+        section:nth-of-type(even) img {
+            float: right;
+        }
+
+        section img {
+            margin: 20px;
+            width: 450px;
+        }
+
+        section p, section ul {
+            overflow: hidden;
+            margin: 20px 0px;
+            text-align: justify;
+        }
+
+        section p {
+            line-height: 1.5em;
+        }
+
+        section h2 {
+            margin: 10px 0px 20px 0px;
+            color: #333;
+        }
+
+        header {
+            text-align: center;
+        }
+
+        header nav {
+            padding: 10px;
+        }
+
+        nav ul {
+            padding: 0;
+            background-color: white;
+            margin-left: 10px;
+        }
+
+        nav ul li {
+            display: inline-block;
+            margin: 5px;
+            margin-right: 20px;
+            color: blue;
+            text-decoration: underline;
+            cursor: pointer;
+        }
+
+        footer p {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Instituto Federal do Triângulo Mineiro</h1>
+        <nav>
+            <ul>
+                <li>Institucional</li>
+                <li>Campi</li>
+                <li>Sobre nós</li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Uberlândia Centro</h2>
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam iure mollitia, illo saepe voluptatibus dolore similique quibusdam, fugit id, repudiandae veritatis temporibus quisquam numquam? Quia odio maiores cum dignissimos consequatur. Veniam, aperiam similique blanditiis perspiciatis praesentium aliquam nihil quidem itaque corporis magni.
+            </p>
+            
+            <img src="iftm2.jpg" alt="Vista aérea Campus Uberlândia Centro">
+            
+            <p>
+                Incidunt aperiam sequi officia reprehenderit, illo veritatis quos deleniti nihil ex, a eaque obcaecati sed minima voluptate fuga. Dignissimos enim modi ipsa, voluptatem asperiores odit cumque earum quas ratione perspiciatis vero explicabo saepe ipsam optio dicta a nobis soluta labore voluptate.
+            </p>
+
+            <ul>
+                <li>Ensino</li>
+                <li>Pesquisa</li>
+                <li>Extensão</li>
+                <li>Outras atividades</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Ituiutaba</h2>
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam iure mollitia, illo saepe voluptatibus dolore similique quibusdam, fugit id, repudiandae veritatis temporibus quisquam numquam? Quia odio maiores cum dignissimos consequatur. Veniam, aperiam similique blanditiis perspiciatis praesentium aliquam nihil quidem itaque corporis magni.
+            </p>
+
+            <img src="iftm3.jpg" alt="Campus Patos de Minas / Ituiutaba">
+
+            <p>
+                Incidunt aperiam sequi officia reprehenderit, illo veritatis quos deleniti nihil ex, a eaque obcaecati sed minima voluptate fuga. Dignissimos enim modi ipsa, voluptatem asperiores odit cumque earum quas ratione perspiciatis vero explicabo saepe ipsam optio dicta a nobis soluta labore voluptate, debitis nemo eaque sit quaerat.
+            </p>
+            <p>
+                Corporis, molestias. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam iure mollitia, illo saepe voluptatibus dolore similique quibusdam.
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>MINISTÉRIO DA EDUCAÇÃO</p>
+        <p>SECRETARIA DE EDUCAÇÃO PROFISSIONAL E TECNOLÓGICA</p>
+        <p>INSTITUTO FEDERAL DE EDUCAÇÃO, CIÊNCIA E TECNOLOGIA DO TRIÂNGULO MINEIRO</p>
+    </footer>
+
+</body>
+</html>
