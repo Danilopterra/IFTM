@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content= =1.0">
+    <title>Layout utilizando HTML5</title>
+    <style>
+        
+        
+
+        
+
+        header h1,
+        footer {
+            background-color: green;
+            padding: 30px;
+        }
+
+        header,
+        footer {
+            color: white;
+        }
+
+        section {
+            margin: 5px;
+            padding: 20px;
+            background-color: lightblue;
+        }
+
+       
+        section h2 {
+            margin: 10px 0px 20px 0px;
+        }
+
+        article {
+            margin: 10px;
+            padding: 10px;
+            background-color: white;
+        }
+
+        article h3 {
+            margin: 15px 0px;
+        }
+
+        article p:nth-last-child(1) {
+            margin-top: 30px;
+            margin-bottom: 10px;
+        }
+
+        article p {
+            margin-bottom: 25px;
+        }
+
+        header nav {
+            padding: 10px;
+        }
+
+        nav ul {
+            padding: 0;
+            background-color: white;
+            margin-left: 10px;
+        }
+
+       
+
+        
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Layout utilizando HTML5</h1>
+        <nav>
+            <ul>
+                <li>Opção 1</li>
+                <li>Opção 2</li>
+                <li>Opção 3</li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Esportes</h2>
+            <article>
+                <h3>Campeonato Brasileiro</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore non dolorum atque debitis beatae pariatur, perferendis aspernatur iure enim!</p>
+                <p>Asperiores, autem. Mollitia minima, eaque alias officia illum ut quibusdam tenetur? </p>
+                <p>Autor: Fulano de tal </p>
+            </article>
+
+            <article>
+                <h3>Olimpíadas</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore non dolorum atque debitis beatae pariatur, perferendis aspernatur iure enim! </p>
+                <p>Autor: Fulano de tal </p>
+            </article>
+        </section>
+
+        <section>
+            <h2>Notícias</h2>
+            <article>
+                <h3>Do Brasil</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore non dolorum atque debitis beatae pariatur, perferendis aspernatur iure enim!</p>
+                <p>Accusantium nam perspiciatis modi odio totam asperiores dolore vero, vel velit quidem. </p>
+                <p>Autor: Fulano de tal </p>
+            </article>
+        </section>
+
+        <section>
+            <h3>Do Mundo</h3>
+            <article>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore non dolorum atque debitis beatae pariatur, perferendis aspernatur iure enim! </p>
+                <p>Voluptates sed ea repudiandae cumque accusantium at ipsa iste laboriosam numquam. </p>
+                <p>Autor: Fulano de tal </p>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>Rodapé da página </p>
+    </footer>
+
+</body>
+</html>
