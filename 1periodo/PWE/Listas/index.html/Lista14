@@ -3,210 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estilos.css">
-    <title>Situação 1</title>
-
-</head>
-
-<body>
-    <header>
-
-        <nav class="dp-menu">
-
-            <ul>
-                <li><a href="index.html"> Página principal</a></li>
-                <li><a href="Atividade1.html">Situação A</a></li>
-                <li><a href="Atividade2.html">Situação B</a></li>
-                <li><a href="Atividade3.html">Situação C</a></li>
-                <li><a href="Atividade4.html">Situação D</a></li>
-            </ul>
-
-
-        </nav>
-
-    </header>
-
-
-    <br>
-    <h1 class="minha-classe "> Título da página </h1>
-    <h2 class="minha-classe "> Outro título da página </h2>
-</body>
-
-</html>
-
-<!DOCTYPE html>
-<html lang="pt-br">
-
-<head>
-
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="estilos.css" rel="stylesheet">
-    <title>Situação B</title>
-</head>
-
-<body>
-
-    <body>
-
-        <header>
-
-            <nav class="dp-menu">
-
-                <ul>
-                    <li><a href="index.html">Página principal</a></li>
-                    <li><a href="Atividade1.html">Situação A</a></li>
-                    <li><a href="Atividade2.html">Situação B</a></li>
-                    <li><a href="Atividade3.html">Situação C</a></li>
-                    <li><a href="Atividade4.html">Situação D</a></li>
-                </ul>
-
-
-            </nav>
-
-        </header>
-        <br>
-        <h1 class="minha-classe "> Título da página </h1>
-        <h2 class="minha-classe "> <u> Outro título da página </u></h2>
-        <p class="minha-classe "> Este é um parágrafo </p>
-        <strong class="minha-classe "> Web Design </strong>
-
-    </body>
-</body>
-
-</html>
-
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <title></title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="estilos.css" rel="stylesheet">
-    <title>Situação C</title>
-</head>
-
-<body>
-
-    <header>
-
-        <nav class="dp-menu">
-
-            <ul>
-                <li><a href="index.html">Página principal</a></li>
-                <li><a href="Atividade1.html">Situação A</a></li>
-                <li><a href="Atividade2.html">Situação B</a></li>
-                <li><a href="Atividade3.html">Situação C</a></li>
-                <li><a href="Atividade4.html">Situação D</a></li>
-            </ul>
-
-
-        </nav>
-
-    </header>
-    <br>
-    <div class="caixa">
-        Texto da caixa 1
-    </div>
-    <br>
-    <div class="caixa">
-        Texto da caixa 2
-    </div>
-
-
-</body>
-
-</html>
-<!DOCTYPE html>
-<html lang="pt-br">
-
-<head>
-    <title></title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-   <style>
-   
- 
-    ul {
-        list-style-type: none;
-        padding: 0;
-        margin: 0;
-        background-color: black;
-        width: 200px; /* largura do menu */
-    }
-
-    li a {
-        display: block;
-        color: white;
-        padding: 10px 15px;
-        text-decoration: none;
-    }
-
-    li a:hover {
-        background-color: white; /* cor de fundo ao passar o mouse */
-    }
-</style>
-
-   </style>
-    <title>Situação D</title>
-</head>
-
-<body>
-    <header>
-       
-      
-           
-                    <ul>
-                        <li><a href="index.html">Página principal</a></li>
-                        <li><a href="Atividade1.html">Situação A</a></li>
-                        <li><a href="Atividade2.html">Situação B</a></li>
-                        <li><a href="Atividade3.html">Situação C</a></li>
-                        <li><a href="Atividade4.html">Situação D</a></li>
-                    </ul>
-               
-           
-        </nav>
-
-    </header>
-       <br>
-    <div class="meu-div">
-        <h1 class="titulo-h">Título 1</h1>
-        <p class="pa">
-            Este é apenas um exemplo de texto. Este é apenas um
-            exemplo de texto. Este é apenas um exemplo de texto. Este é apenas um
-            exemplo de texto. Este é apenas um exemplo de texto. Este é apenas um
-            exemplo de texto. Este é apenas um exemplo de texto. Este é apenas um
-            exemplo de texto. Este é apenas um exemplo de texto. Este é apenas um
-            exemplo de texto. Este é apenas um exemplo de texto. Este é apenas um
-            exemplo de texto. Este é apenas um exemplo de texto. Este é apenas um
-            exemplo de texto. Este é apenas um exemplo de texto. Este é apenas um
-            exemplo de texto. Este é apenas um exemplo de texto. Este é apenas um
-            exemplo de texto. Este é apenas um exemplo de texto. Este é apenas um
-            exemplo de texto. Este é apenas um exemplo de texto. Este é apenas um
-            exemplo de texto. Este é apenas um exemplo de texto. Este é apenas um
-            exemplo de texto. Este é apenas um exemplo de texto. Este é apenas um
-            exemplo de texto. Este é apenas um exemplo de texto. Este é apenas um
-            exemplo de texto. Este é apenas um exemplo de texto. Este é apenas um
-            exemplo de texto. Este é apenas um exemplo de texto. Este é apenas um
-            exemplo de texto. Este é apenas um exemplo de texto. Este é apenas um
-            exemplo de texto. Este é apenas um exemplo de texto. Este é apenas um
-            exemplo de texto. Este é apenas um exemplo de texto. Este é apenas um
-            exemplo de texto. Este é apenas um exemplo de texto. Este é apenas um
-            exemplo de texto. Este é apenas um exemplo de texto. Este é apenas um
-            exemplo de texto. Este é apenas um exemplo de texto. Este é apenas um
-            exemplo de texto. Este é apenas um exemplo de texto. Este é apenas um
-            exemplo de texto. Este é apenas um exemplo de texto. Este é apenas um
-            exemplo de texto. Este é apenas um exemplo de texto. Este é apenas um
-            exemplo de texto. Este é apenas um exemplo de texto. Este é apenas um
-            exemplo de texto.
-        </p>
-    </div>
-</body>
-
-</html>
-.minha-classe {
+    <meta name="viewp.minha-classe {
     background-color: yellow;
     color: red;
 }
@@ -332,13 +129,7 @@ td {
 
 .dp-menu ul ul li a {
     display: block;
-}
-<!DOCTYPE html>
-<html lang="pt-br">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+}ort" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilos.css">
     <title>Exercícios</title>
 </head>
@@ -379,7 +170,211 @@ td {
      <p class="np">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis necessitatibus repellat deleniti, dignissimos eaque facilis beatae dolore, sapiente similique nemo, non obcaecati quam mollitia fugiat praesentium architecto dolores magnam natus.
      </p>
+<!DOCTYPE html>
+<html lang="pt-br">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Situação 1</title>
+
+</head>
+
+<body>
+    <header>
+
+        <nav class="dp-menu">
+
+            <ul>
+                <li><a href="index.html"> Página principal</a></li>
+                <li><a href="Atividade1.html">Situação A</a></li>
+                <li><a href="Atividade2.html">Situação B</a></li>
+                <li><a href="Atividade3.html">Situação C</a></li>
+                <li><a href="Atividade4.html">Situação D</a></li>
+            </ul>
+
+
+        </nav>
+
+    </header>
+
+
+    <br>
+    <h1 class="minha-classe "> Título da página </h1>
+    <h2 class="minha-classe "> Outro título da página </h2>
+</body>
+
+</html>
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="estilos.css" rel="stylesheet">
+    <title>Situação B</title>
+</head>
+
+<body>
+
+    <body>
+
+        <header>
+
+            <nav class="dp-menu">
+
+                <ul>
+                    <li><a href="index.html">Página principal</a></li>
+                    <li><a href="Atividade1.html">Situação A</a></li>
+                    <li><a href="Atividade2.html">Situação B</a></li>
+                    <li><a href="Atividade3.html">Situação C</a></li>
+                    <li><a href="Atividade4.html">Situação D</a></li>
+                </ul>
+
+
+            </nav>
+
+        </header>
+        <br>
+        <h1 class="minha-classe "> Título da página </h1>
+        <h2 class="minha-classe "> <u> Outro título da página </u></h2>
+        <p class="minha-classe "> Este é um parágrafo </p>
+        <strong class="minha-classe "> Web Design </strong>
+
+    </body>
+</body>
+
+</html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="estilos.css" rel="stylesheet">
+    <title>Situação C</title>
+</head>
+
+<body>
+
+    <header>
+
+        <nav class="dp-menu">
+
+            <ul>
+                <li><a href="index.html">Página principal</a></li>
+                <li><a href="Atividade1.html">Situação A</a></li>
+                <li><a href="Atividade2.html">Situação B</a></li>
+                <li><a href="Atividade3.html">Situação C</a></li>
+                <li><a href="Atividade4.html">Situação D</a></li>
+            </ul>
+
+
+        </nav>
+
+    </header>
+    <br>
+    <div class="caixa">
+        Texto da caixa 1
+    </div>
+    <br>
+    <div class="caixa">
+        Texto da caixa 2
+    </div>
+
+
+</body>
+
+</html><!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   <style>
+   
+ 
+    ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        background-color: black;
+        width: 200px; /* largura do menu */
+    }
+
+    li a {
+        display: block;
+        color: white;
+        padding: 10px 15px;
+        text-decoration: none;
+    }
+
+    li a:hover {
+        background-color: white; /* cor de fundo ao passar o mouse */
+    }
+</style>
+
+   </style>
+    <title>Situação D</title>
+</head>
+
+<body>
+    <header>
+       
+      
+           
+                    <ul>
+                        <li><a href="index.html">Página principal</a></li>
+                        <li><a href="Atividade1.html">Situação A</a></li>
+                        <li><a href="Atividade2.html">Situação B</a></li>
+                        <li><a href="Atividade3.html">Situação C</a></li>
+                        <li><a href="Atividade4.html">Situação D</a></li>
+                    </ul>
+               
+           
+        </nav>
+
+    </header>
+       <br>
+    <div class="meu-div">
+        <h1 class="titulo-h">Título 1</h1>
+        <p class="pa">
+            Este é apenas um exemplo de texto. Este é apenas um
+            exemplo de texto. Este é apenas um exemplo de texto. Este é apenas um
+            exemplo de texto. Este é apenas um exemplo de texto. Este é apenas um
+            exemplo de texto. Este é apenas um exemplo de texto. Este é apenas um
+            exemplo de texto. Este é apenas um exemplo de texto. Este é apenas um
+            exemplo de texto. Este é apenas um exemplo de texto. Este é apenas um
+            exemplo de texto. Este é apenas um exemplo de texto. Este é apenas um
+            exemplo de texto. Este é apenas um exemplo de texto. Este é apenas um
+            exemplo de texto. Este é apenas um exemplo de texto. Este é apenas um
+            exemplo de texto. Este é apenas um exemplo de texto. Este é apenas um
+            exemplo de texto. Este é apenas um exemplo de texto. Este é apenas um
+            exemplo de texto. Este é apenas um exemplo de texto. Este é apenas um
+            exemplo de texto. Este é apenas um exemplo de texto. Este é apenas um
+            exemplo de texto. Este é apenas um exemplo de texto. Este é apenas um
+            exemplo de texto. Este é apenas um exemplo de texto. Este é apenas um
+            exemplo de texto. Este é apenas um exemplo de texto. Este é apenas um
+            exemplo de texto. Este é apenas um exemplo de texto. Este é apenas um
+            exemplo de texto. Este é apenas um exemplo de texto. Este é apenas um
+            exemplo de texto. Este é apenas um exemplo de texto. Este é apenas um
+            exemplo de texto. Este é apenas um exemplo de texto. Este é apenas um
+            exemplo de texto. Este é apenas um exemplo de texto. Este é apenas um
+            exemplo de texto. Este é apenas um exemplo de texto. Este é apenas um
+            exemplo de texto. Este é apenas um exemplo de texto. Este é apenas um
+            exemplo de texto. Este é apenas um exemplo de texto. Este é apenas um
+            exemplo de texto. Este é apenas um exemplo de texto. Este é apenas um
+            exemplo de texto. Este é apenas um exemplo de texto. Este é apenas um
+            exemplo de texto.
+        </p>
+    </div>
+</body>
+
+</html>
      <p class="np">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis necessitatibus repellat deleniti, dignissimos eaque facilis beatae dolore, sapiente similique nemo, non obcaecati quam mollitia fugiat praesentium architecto dolores magnam natus.
      </p>
