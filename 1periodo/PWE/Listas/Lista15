@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Interativo</title>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <ul class="nav-list">
+            <li class="nav-item fb">
+                <a href="#">
+                    <i class="fab fa-facebook-f"></i>
+                    <span>Facebook</span>
+                </a>
+            </li>
+            <li class="nav-item ig">
+                <a href="#">
+                    <i class="fab fa-instagram"></i>
+                    <span>Instagram</span>
+                </a>
+            </li>
+            <li class="nav-item gm">
+                <a href="#">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>Google Maps</span>
+                </a>
+            </li>
+            <li class="nav-item tw">
+                <a href="#">
+                    <i class="fab fa-twitter"></i>
+                    <span>Twitter</span>
+                </a>
+            </li>
+            <li class="nav-item yt">
+                <a href="#">
+                    <i class="fab fa-youtube"></i>
+                    <span>Youtube</span>
+                </a>
+            </li>** {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: #000;
+    padding: 15px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+}
+
+.nav-item a {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff; 
+    font-family: 'Oswald', sans-serif;
+    transition: all 0.3s ease; 
+    border-bottom: 3px solid transparent; 
+    padding-bottom: 8px;
+}
+
+.nav-item i {
+    font-size: 28px;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease;
+}
+
+.nav-item.fb:hover a {
+    color: #1877F2;
+    border-bottom-color: #1877F2;
+}
+
+.nav-item.ig:hover a {
+    color: #E4405F;
+    border-bottom-color: #E4405F;
+}
+
+
+.nav-item.gm:hover a {
+    color: #34A853;
+    border-bottom-color: #34A853;
+}
+
+
+.nav-item.tw:hover a {
+    color: #1DA1F2;
+    border-bottom-color: #1DA1F2;
+}
+
+
+.nav-item.yt:hover a {
+    color: #FF0000;
+    border-bottom-color: #FF0000;
+}
+
+.nav-item:hover i {
+    transform: scale(1.1);
+}
+
+.content {
+    padding: 50px;
+    font-size: 22px;
+}
+        </ul>
+    </nav>
+
+    
+
+</body>
+</html>
