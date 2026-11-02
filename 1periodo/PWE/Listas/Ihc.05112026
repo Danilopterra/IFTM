@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta de Livros</title>
+    <style>
+        
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .container {
+            background: #fff;
+            padding: 24px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            max-width: 500px;
+            width: 100%;
+        }
+
+        h1 {
+            font-size: 1.5rem;
+            margin-bottom: 8px;
+            color: #1a252f;
+        }
+
+        p.instrucao {
+            font-size: 0.9rem;
+            color: #666;
+            margin-bottom: 20px;
+        }
+
+        .campo {
+            margin-bottom: 16px;
+        }
+
+        label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 6px;
+        }
+
+        input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            font-size: 1rem;
+        }
+
+        input[type="text"]:focus {
+            border-color: #0056b3;
+            outline: 2px solid #0056b3;
+        }
+
+        .botoes {
+            display: flex;
+            gap: 10px;
+            justify-content: flex-end;
+            margin-top: 20px;
+        }
+
+        button {
+            padding: 10px 18px;
+            font-size: 1rem;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .btn-buscar {
+            background-color: #0056b3;
+            color: white;
+        }
+
+        .btn-buscar:hover {
+            background-color: #003d80;
+        }
+
+        .btn-limpar {
+            background-color: #e0e0e0;
+            color: #333;
+        }
+
+        .btn-limpar:hover {
+            background-color: #d0d0d0;
+        }
+
+        
+        .erro {
+            display: none;
+            background-color: #f8d7da;
+            color: #721c24;
+            padding: 10px;
+            border-radius: 4px;
+            margin-bottom: 15px;
+            font-size: 0.9rem;
+        }
+
+        
+        .resultados {
+            display: none;
+            margin-top: 25px;
+            border-top: 2px solid #eee;
+            padding-top: 15px;
+        }
+
+        .livro-card {
+            background: #f9f9f9;
+            border-left: 4px solid #0056b3;
+            padding: 12px;
+            margin-top: 10px;
+            border-radius: 2px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Consulta de Livros</h1>
+        <p class="instrucao">Preencha ao menos um campo para pesquisar no acervo.</p>
+
+        
+        <div id="msgErro" class="erro">
+            Por favor, preencha pelo menos um campo para buscar.
+        </div>
+
+        <form id="formConsulta">
+            <div class="campo">
+                <label for="autor">Autor:</label>
+                <input type="text" id="autor" name="autor" placeholder="Ex: Machado de Assis">
+            </div>
+
+            <div class="campo">
+                <label for="titulo">Título:</label>
+                <input type="text" id="titulo" name="titulo" placeholder="Ex: Dom Casmurro">
+            </div>
+
+            <div class="campo">
+                <label for="isbn">ISBN:</label>
+                <input type="text" id="isbn" name="isbn" placeholder="Ex: 978-8535902777">
+            </div>
+
+            <div class="botoes">
+                <button type="reset" class="btn-limpar" id="btnLimpar">Limpar</button>
+                <button type="submit" class="btn-buscar">Pesquisar</button>
+            </div>
+        </form>
+
+        
+        <div id="areaResultados" class="resultados">
+            <h2>Resultados Encontrados:</h2>
+            <div class="livro-card">
+                <strong>Dom Casmurro</strong><br>
+                Autor: Machado de Assis<br>
+                <small>ISBN: 978-8535902777 | Status: Disponível</small>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const form = document.getElementById('formConsulta');
+        const msgErro = document.getElementById('msgErro');
+        const areaResultados = document.getElementById('areaResultados');
+        const btnLimpar = document.getElementById('btnLimpar');
+
+        
+        form.addEventListener('submit', function(event) {
+            event.preventDefault();
+
+            const autor = document.getElementById('autor').value.trim();
+            const titulo = document.getElementById('titulo').value.trim();
+            const isbn = document.getElementById('isbn').value.trim();
+
+            if (!autor && !titulo && !isbn) {
+                msgErro.style.display = 'block';
+                areaResultados.style.display = 'none';
+            } else {
+                msgErro.style.display = 'none';
+                areaResultados.style.display = 'block';
+            }
+        });
+
+        
+        btnLimpar.addEventListener('click', function() {
+            msgErro.style.display = 'none';
+            areaResultados.style.display = 'none';
+        });
+    </script>
+
+</body>
+</html>
